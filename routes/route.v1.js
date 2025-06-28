@@ -7,6 +7,8 @@ const router=require('express').Router();
 //auth apis
 router.post('/auth/register',Auth.register);
 router.post('/auth/login',Auth.login);
+router.post('/auth/forget-password',Auth.forgetPassword);
+router.post('/auth/reset-password',Auth.resetPassword);
 
 
 //user apis
